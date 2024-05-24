@@ -1,0 +1,157 @@
+body{
+    font-family:"Poppins",sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(80px);
+    font-size: 20px;
+    z-index:2;
+    padding: 0 2%;
+}
+
+ul li {
+    display: inline-block;
+    margin: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.khoangtrang{
+    height: 25vh
+}
+.bio {
+    background-color: black;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+.anhmuc{
+    padding-left: 60px;
+    
+    
+}
+.info{
+    padding: 10%;
+}
+.anhcd{
+    display: flex;
+    justify-content: space-around;
+   
+    border-radius: 30px;
+}
+@media (max-width: 900px){
+    .anhcd{
+        display: block;
+        padding-left: 20%;
+
+    }
+}
+.khoangtranglon{
+    height: 90vh;
+    text-align: center;
+    font-size: 10vh;
+    line-height: 50vh;
+}
+.khoangtranglon2{
+    height: 30vh;
+    font-size: medium;
+    text-align: center;
+}
+#anh1{
+    border-radius: 50px;
+    height: 700px;
+    width: 400px;
+    justify-items: center;
+}
+.khoangtranglon3{
+    height: 40%;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px
+}
+.end{
+    height: 50vh;
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4%;  
+
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    font-size: 22px;
+    
+}
+#anhtroi{
+    border-radius: 20px;
+}
+.contact{
+    text-align: center;
+    
+}
+.iconpart{
+    text-align: center;
+}
+
+.icon{
+    margin: 20px;
+    
+}
+.anhgiua{
+   text-align: center;
+   border-radius: 20px;  
+}
+a:hover{
+    opacity: 70%;
+}
+
+.sectionn{
+    position: absolu;
+}
+@media (max-width: 900px) {
+    .end {
+        display: block;
+        height: 80vh;
+        font-size: 19px;
+
+    }
+}
+
+    
+@media (min-width: 900px){
+    .responsive_img {
+        display: none;
+        
+    }
+}
+@media (max-width: 899px){
+    .hidden_img {
+        display: none;
+        
+    }
+}
+
+@media (max-width:900px){
+    .bio{
+        display: block;
+        .info{
+            font-size: 16px;
+        }
+        .anhmuc{
+            width: 400px;
+            height: 700px;
+        }
+    }
+}
+
