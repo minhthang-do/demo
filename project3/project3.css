@@ -1,0 +1,101 @@
+body{
+    font-family:var(--framer-font-family, Inter, sans-serif);
+    
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+    position: sticky;
+    left:40%;
+    right: 40%;
+    top: 20px;
+    
+    .info{
+        display: flex;
+        background-color: rgba(232, 229, 228, 0.5);
+        backdrop-filter: blur(16px);
+        border-radius: 100px;
+        
+        p{
+            margin: 15px 25px;
+            
+        }
+    }
+
+}
+.container{
+    text-align: center;
+    height:50vh;
+    padding: 8% 25%;
+    
+}
+.container-hero{
+    font-size: 30px;
+}
+.container-category{
+    span{
+        margin: 10px;
+    }
+}
+.container-img{
+    img{
+        border-radius:15px;
+    }
+    .container-img-box{
+        display: flex;
+        flex-wrap: wrap;
+        padding:0 7%;
+    }
+}
+.box1{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.box2{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box3{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box4{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lets-work-together{
+    padding-top: 5% ;
+    text-align: center;
+
+    min-height: 300px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    
+    .social{
+        display: flex;
+       
+    }
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
