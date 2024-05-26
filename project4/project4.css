@@ -10,6 +10,7 @@ body{
     background-color: #fdfbf9;
     top:0;
     box-shadow: 0 4px 2px -2px rgb(227, 227, 227);
+    z-index: 2;
     .navbar-left{
         display: flex;
         ul li{
