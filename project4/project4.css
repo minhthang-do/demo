@@ -110,7 +110,7 @@ ul li, .login, .sign-up-free:hover{
 #button:hover{
     cursor: pointer;
 }
-@media (max-width:1200px){
+@media (max-width:800px){
     body{
         text-align: center;
     }
@@ -121,7 +121,7 @@ ul li, .login, .sign-up-free:hover{
     .navbar{
         font-size:10px;
         height:5vh;
-        overflow: auto;
+        overflow: hidden;
     }
     .sign-up-free{
         font-size: 5px;
