@@ -146,14 +146,17 @@ ul li, .login, .sign-up-free:hover{
   .js-scroll.scrolled {
     opacity: 1;
   }
-  .question-symbol{
+   .question-symbol{
     display: flex;
     justify-content: flex-end;
     .question-symbol-content{
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
         background-color: #4b2aad;
-        padding: 0.3% 1.3%;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         position: fixed;
         bottom: 20px;
@@ -162,4 +165,3 @@ ul li, .login, .sign-up-free:hover{
       }
       
   }
-  
