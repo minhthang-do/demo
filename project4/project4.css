@@ -134,3 +134,12 @@ ul li, .login, .sign-up-free:hover{
         font-size: 25px;
     }
 }
+.js-scroll {
+    opacity: 0;
+    transition: opacity 800ms;
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
+  
