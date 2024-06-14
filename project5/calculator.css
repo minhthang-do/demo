@@ -16,7 +16,8 @@ body{
     .container-content{
         width: 25rem;
         height: 650px;
-        
+        transform: translate(10px, 10px);
+        transition: .5s ease;
                    
         
         background-color: rgb(3,3,3);
@@ -65,4 +66,5 @@ section{
 }
 .container-content:hover{
     box-shadow: 10px 10px 0px #999;
+    transform: translate(0,0);
 }
