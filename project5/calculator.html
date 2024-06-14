@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+    <link rel="icon" type="icon" href="https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/447836522_1376788093013797_8966598562724870769_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=byTMcXSUa94Q7kNvgE5Hbdn&_nc_ht=scontent.fdad1-3.fna&oh=03_Q7cD1QE7XklbrKzGFjZEBQN5kQgR-Bu5gthMZ_QyfoSjaU0ahg&oe=6693CF2B">
+</head>
+<body>
+    <div class="container">
+        <div class="container-content">
+            <section><h1>Minh Thang</h1></section>
+            <div class="calculator-input">
+                <input type="text" id="input-value">
+            </div>
+            <div class="calculator-button">
+                <button style="background-color: rgb(161, 161, 161);color: black;" onclick="clears()">C</button>
+                <button style="background-color: rgb(161, 161, 161);color: black;">+/</button>
+                <button style="background-color: rgb(161, 161, 161);color: black;">%</button>
+                <button id="operation" onclick="calculatorvalue('/')">/</button>
+                <button onclick="calculatorvalue('7')">7</button>
+                <button onclick="calculatorvalue('8')">8</button>
+                <button onclick="calculatorvalue('9')">9</button>
+                <button id="operation" onclick="calculatorvalue('*')">x</button>
+                <button onclick="calculatorvalue('4')">4</button>
+                <button onclick="calculatorvalue('5')">5</button>
+                <button onclick="calculatorvalue('6')">6</button>
+                <button id="operation" onclick="calculatorvalue('-')">-</button>
+                <button onclick="calculatorvalue('1')">1</button>
+                <button onclick="calculatorvalue('2')">2</button>
+                <button onclick="calculatorvalue('3')">3</button>
+                <button id="operation" onclick="calculatorvalue('+')">+</button>
+                <button style="width: 10rem;border-radius: 40px;" onclick="calculatorvalue('0')">0</button>
+                <button onclick="calculatorvalue('.')">.</button>
+                <button id="operation" onclick="equals()">=</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
