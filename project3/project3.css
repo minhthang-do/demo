@@ -14,17 +14,26 @@ body{
     top: 20px;
     
     .info{
-        display: flex;
+        display:flex;
         background-color: rgba(232, 229, 228, 0.5);
         backdrop-filter: blur(16px);
         border-radius: 100px;
-        
+        height:45px;
+        width:230px;
+        justify-content:center;
+        align-items:center;
         p{
-            margin: 15px 25px;
-            
+            padding:0px 10px;
+            cursor:pointer;
         }
     }
 
+}
+.active{
+  align-content:center;
+  background-color: red;
+  height: 30px;
+  border-radius: 40px;
 }
 .container{
     text-align: center;
