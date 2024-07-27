@@ -68,6 +68,15 @@
 
         </div>
         <div style="position: fixed; bottom:10px; text-align: center; left:46%; right:46%;"><p style="background-color: black;color: white;border-radius: 20px; padding: 10px 20px   ;">Shop</p></div>
-    
+    <script>
+        function active(){
+  document.querySelectorAll('.list').forEach((list)=>{
+  list.onclick=()=>{
+    document.querySelector('.active')?.classList.remove('active');
+    list.classList.add('active');
+  }
+})
+}
+    </script>
 </body>
 </html>
