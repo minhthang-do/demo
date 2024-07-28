@@ -37,8 +37,8 @@ body{
     animation: shoppe 1s infinite;
 }
 @keyframes shopee{
-    from{transform: translateY(0%)}
-    to{transform: translateY(-12%)}
+    from{transform: translateY(0%)};
+    to{transform: translateY(-12%)};
 }
 .active{
   align-content:center;
