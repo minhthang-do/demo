@@ -36,7 +36,7 @@ body{
 .shop{
     animation: shoppe 1s infinite;
 }
-@keyframe shopee{
+@keyframes shopee{
     from{transform: translateY(0%)}
     to{transform: translateY(-12%)}
 }
