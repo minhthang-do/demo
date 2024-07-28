@@ -144,17 +144,20 @@ img:hover{
   }
 }
 .full-img{
-  display:flex;
-  justify-content:center;
-  align-items: center;
+  
   width:100vw;
   height:100vh;
   backdrop-filter: brightness(30%);
   position: fixed;
   top:0;
+  left:0;
   z-index:2000;
   display:none;
   img{
     scale: 0.5;
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
   }
 }
