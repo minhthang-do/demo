@@ -1,4 +1,4 @@
-body{
+TTbody{
     font-family:var(--framer-font-family, Inter, sans-serif);
     
     
@@ -156,7 +156,7 @@ img:hover{
   img{
     scale: 0.5;
     position: fixed;
-    left:25%;
+    left:26%;
     
   }
 }
