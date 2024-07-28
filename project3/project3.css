@@ -151,11 +151,11 @@ img:hover{
   top: 0;
   left: 0;
   z-index: 2000;
-  display: none;
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  display:none;
+  
 }
 
 .full-img img {
