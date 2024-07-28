@@ -36,7 +36,7 @@
         <div class="container-img">
             <div class="container-img-box">
                 <div class="box1">
-                    <img src="https://images.pexels.com/photos/24245168/pexels-photo-24245168/free-photo-of-hat-camera-and-bag-with-flowers-on-picnic-blanket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="100%">
+                    <img onclick="te()" src="https://images.pexels.com/photos/24245168/pexels-photo-24245168/free-photo-of-hat-camera-and-bag-with-flowers-on-picnic-blanket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="100%">
                     <img src="https://images.pexels.com/photos/15578747/pexels-photo-15578747/free-photo-of-sneaking-cat-on-the-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"width="50%" height="100%">
                 </div>
                 <div class="box2">
@@ -68,6 +68,10 @@
 
         </div>
         <div style=" text-align: center; display: flex; justify-content: center;"><p style="background-color: black;color: white;border-radius: 20px; width: 100px; height: 40px; align-content: center;transition:.3s ease;position: fixed; bottom:10px;cursor:pointer;"class="shop">Shop</p></div>
+        <div class="full-img">
+          <img src='https://images.pexels.com/photos/24245168/pexels-photo-24245168/free-photo-of-hat-camera-and-bag-with-flowers-on-picnic-blanket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'>
+        </div>
+        
     <script>
         function active(){
   document.querySelectorAll('.list').forEach((list)=>{
@@ -77,6 +81,15 @@
   }
 })
 }
+     
+                             document.querySelectorAll('img').forEach((image)=>{
+                             image.onclick = ()=>{
+                             document.querySelector('.full-img').style.display = 'block';
+                             document.querySelector('.full-img img').src = image.getAttribute('src');
+                              
+                             }
+                             })
+                                              
     </script>
 </body>
 </html>
