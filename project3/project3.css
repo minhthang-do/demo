@@ -31,7 +31,7 @@ body{
 }
 .active{
   align-content:center;
-  background-color: red;
+  background-color: white;
   height: 30px;
   border-radius: 40px;
 }
