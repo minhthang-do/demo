@@ -33,6 +33,13 @@ body{
 .shop:hover{
   transform: translateY(-10%);
 }
+.shop{
+    animation: shoppe 1s infinite;
+}
+@keyframe shopee{
+    from{transform: translateY(0%)}
+    to{transform: translateY(-12%)}
+}
 .active{
   align-content:center;
   background-color: white;
