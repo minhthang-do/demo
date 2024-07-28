@@ -30,15 +30,13 @@ body{
     }
 
 }
-.shop:hover{
-  transform: translateY(-10%);
-}
+
 .shop{
-    animation: shoppe 1s infinite;
+    animation: tiki 2s infinite;
 }
-@keyframes shopee{
+@keyframes tiki{
     from{transform: translateY(0%);}
-    to{transform: translateY(-12%);}
+    to{transform: translateY(-13%);}
 }
 .active{
   align-content:center;
