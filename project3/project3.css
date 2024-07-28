@@ -35,8 +35,9 @@ body{
     animation: tiki 2s infinite;
 }
 @keyframes tiki{
-    from{transform: translateY(0%);}
-    to{transform: translateY(-13%);}
+    0% {transform: translateY(0%);}
+    50%{transform: translateY(-13%);}
+    100% {transform: translateY(0%);}
 }
 .active{
   align-content:center;
