@@ -79,6 +79,11 @@ a{
     
 }
 }
+.container-text-start h2:hover{
+    background: linear-gradient(90deg, #ff7a18, #ff0d00,#1dde74);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
 .img-library{
     display: flex;
     justify-content: center;
