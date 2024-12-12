@@ -1,0 +1,236 @@
+body{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+
+.layout{
+    width: 45vw;
+    background-color:rgb(244, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 10px solid wheat;
+    transition: ease 0.5s;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.first-img{
+    width: 45vw;
+    height:100vh;
+    background-image: url("https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/462566394_1098695928398555_8039266469740161404_n.png?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_ohc=sRsO1-7DecYQ7kNvgHR1EiD&_nc_zt=23&_nc_ht=scontent.fdad2-1.fna&oh=03_Q7cD1QHNFMNuQjpRdDk2MBDJkECwCJJd_NWuvQO5BNX8MOPckw&oe=677F9193");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    z-index: 1000;
+    width: 46vw;
+    height:80px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    box-shadow: 0px 10px;
+    transition: top 0.4s;
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+        padding: 0 50px 0 50px;
+    }
+      
+    }
+    li {
+        list-style: none;
+        font-size: 20px;
+        
+    }
+    li:hover{
+        scale: 1.2;
+    }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .container-text-start h1:hover{
+        color: black
+        
+    }
+.container-text-start{
+    width: 45vw;
+    position: absolute;
+    left: 38%;
+    top:14vh;
+    font-family: "Mrs Saint Delafield", cursive;
+    
+    z-index: 2;
+    font-size: 60px;
+    color: white
+    
+}
+}
+.container-text-start h2:hover{
+    background: linear-gradient(90deg, #ff7a18, #ff0d00,#1dde74);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.img-library{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    img{
+        color: aliceblue;
+        width: 50%;
+    }
+}
+.contact{
+    padding: 50px;
+    button:hover{
+        scale: 1.1;
+        cursor: pointer;
+    }
+}
+
+.fbk, .ig, .thr, .tw, .rd, .zl{
+    display: flex;
+    
+    flex-direction: column;
+    background-color: rgb(235, 201, 138);
+    width: 280px;
+    height:80px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    border: none;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.credit{
+    margin-top: 20vh;
+    padding: 10vh 50px 50px 50px;
+    width: 45vw;
+    height: 750px;
+    background-color: wheat;
+    font-size: 17px;
+    nav{
+        line-height: 50px;
+    }
+}
+.about{
+    width: 45vw;
+    padding: 50px;
+    background-color: wheat;
+    img{
+        padding-left: 20px;
+    }
+    
+}
+.contact-sm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.full-img {
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: brightness(30%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.talk1, talk2{
+    padding: 80px 0px 0px 0px;
+}
+#cpr{
+    font-size: 30px;
+    animation: rota 1s infinite;
+}
+@keyframes rota {
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+.running-line{
+    background-color: blanchedalmond;
+    width: 46vw;
+    
+    position: sticky;
+    z-index: 100;
+    bottom: 0;
+    overflow: hidden;
+    nav{
+        padding: 16px 0 16px 0;
+        animation: runningh 15s infinite;
+        position: relative;
+        
+    }
+    
+}
+
+@keyframes runningh {
+    0%{left: 47vw;} 
+    100%{left: -22vw;}
+}
+@media (max-width:700px) {
+    .layout, .navbar, .running-line, .about, .credit, .first-img{
+        width: 97vw;
+        
+    }
+    p, h1{
+        font-size: 17px;
+    }
+    .talk1, .talk2{
+        padding: 80px 80px 0 80px;
+    }
+    .contact-sm{
+        justify-content: center;
+    }
+    .about{
+        flex-direction: column;
+        text-align: center;
+        h2{
+            font-size: 18px;
+        }
+    }
+    .container .fbk, .ig, .thr, .tw, .rd, .zl{
+        width: 300px;
+    }
+    .contact-sm{
+        flex-direction: column;
+    }
+    @keyframes runningh {
+        0%{left: 100vw;} 
+        100%{left: -80vw;}
+    }
+    .navbar ul{
+        padding: 0 10px 0 10px;
+    }
+    .img-library img{
+        flex-wrap: wrap;
+        max-width: 40%;
+    }
+    
+}
