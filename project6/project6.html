@@ -115,14 +115,15 @@
     <script>
         a= new Date();
         b= a.getFullYear();
+        v= a.getFullYear();
         c= a.getMonth();
-        if (c > 10) {
-            b = b + 1;
+        if (c <= 10) {
+            b = b - 1;
         }
             
         
         document.querySelector("#age").innerHTML = "Age: " + (b - 2008);
-        document.querySelector("h3").innerHTML = "Copyright by Minh Thang "+ b;
+        document.querySelector("h3").innerHTML = "Copyright by Minh Thang "+ v;
 
         document.querySelectorAll('img').forEach((image)=>{
                              image.onclick = ()=>{
