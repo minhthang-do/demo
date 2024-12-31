@@ -172,7 +172,8 @@ a{
     align-items: center;
     display: none;
     img{
-        scale: 0.7;
+        scale: 0.8;
+        object-fit: contain;
     }
 }
 .talk1, talk2{
