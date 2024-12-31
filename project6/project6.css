@@ -172,7 +172,7 @@ a{
     align-items: center;
     display: none;
     img{
-        scale: 0.8;
+        scale: 0.9;
         object-fit: contain;
     }
 }
